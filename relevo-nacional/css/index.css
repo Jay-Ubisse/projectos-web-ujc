@@ -1,0 +1,70 @@
+#slideshow {
+    height: calc(100vh - 60px);
+    background-image: url('../img/background-1.jpg');
+    background-size: cover;
+}
+
+#slideshow > div {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slideshow #conteudo {
+    width: fit-content;
+    text-align: center;
+    color: white;
+}
+
+#slideshow #conteudo h1 {
+    font-size: 4rem;
+    margin-bottom: 8px;
+}
+
+#conteudo p {
+    margin-bottom: 36px;
+}
+
+.ler-mais {
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+
+.ler-mais a {
+    color: white;
+    text-decoration: none;
+}
+
+.sobre {
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre div {
+    width: 40%;
+    height: 80%;
+    border: 1px solid cornflowerblue;
+}
+
+.sobre #texto {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.sobre #texto h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.sobre #texto p {
+    margin-bottom: 40px;
+}
+
