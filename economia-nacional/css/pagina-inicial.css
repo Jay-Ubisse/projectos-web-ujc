@@ -1,0 +1,32 @@
+main article {
+    width: 69%;
+}
+main aside {
+    width: 29%;
+    background-color: #edf2f4;
+    height: 400px;
+    padding: 20px 10px;
+}
+main {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+main article h1 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+
+main article p {
+    color: white;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+main aside h3 {
+    text-align: center;
+    color: #c1121f;
+}

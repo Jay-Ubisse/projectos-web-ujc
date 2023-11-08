@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economia Nacional</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/pagina-inicial.css">
+    <style>
+        #inicio {
+            color: #e01e37;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav>
+                <a href="index.html" id="inicio">Página inicial</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="actualidade-economica.html">Actuaidade económica</a>
+                <a href="noticias.html">Notícias</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <section>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="./imagens/baco-mocambique.webp" height="300px" width="100%" alt="">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./imagens/moedas.jpg" height="300px" width="100%" alt="">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./imagens/porto.jpg" height="300px" width="100%" alt="">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <div id="texto">
+                    <h1>Economia Nacional</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit delectus
+                        reiciendis optio eum! Vitae dignissimos numquam nisi atque voluptatem possimus,
+                        sapiente minima voluptatibus dolorem ea consequuntur ad dolorum facere provident!
+                    </p>
+                </div>
+            </section>
+        </header>
+        <main>
+            <article>
+                <h1>Economia em Moçambique</h1>
+                <p>
+                    Moçambique independente herdou uma estrutura económica colonial caracterizada por uma assimetria
+                    entre o Norte e o Sul do País e entre o campo e a cidade. O Sul mais desenvolvido que o Norte e a
+                    cidade mais desenvolvida que o campo. A ausência duma integração económica e a opressão extrema da
+                    mão de obra constituíam as características mais dominantes dessa assimetria.
+                </p>
+                <p>
+                    A economia de Moçambique desenvolveu-se desde o fim da Guerra Civil Moçambicana (1977–1992). Em
+                    1987, o governo embarcou em uma série de reformas macroeconómicas destinadas a estabilizar a
+                    economia. Essas medidas, combinadas com a assistência dos doadores e com a estabilidade política
+                    desde as eleições multipartidárias em 1994, levaram a melhorias dramáticas na taxa de crescimento do
+                    país. A inflação foi reduzida para um dígito durante o final dos anos 1990, embora tenha voltado
+                    para dois dígitos em 2000-02. As reformas fiscais, incluindo a introdução de um imposto sobre o
+                    valor acrescentado e a reforma do serviço alfandegário, melhoraram a capacidade do governo de
+                    arrecadar receitas. Apesar destes ganhos, Moçambique continua dependente da assistência externa para
+                    grande parte do seu orçamento anual.
+                </p>
+            </article>
+            <aside>
+                <h3>Notícias</h3>
+            </aside>
+        </main>
+    </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+
+</html>
