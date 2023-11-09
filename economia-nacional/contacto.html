@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economia Nacional</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <style>
+        #contacto {
+            color: #e01e37;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav>
+                <a href="index.html">Página inicial</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="actualidade-economica.html">Actuaidade económica</a>
+                <a href="noticias.html">Notícias</a>
+                <a href="contacto.html" id="contacto">Contacto</a>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <div id="endereco">
+                    <h1>Economia Nacional</h1>
+                    <p>Av. Karl Max, Maputo-Moçambique</p>
+                </div>
+                <div id="contactos">
+                    <p>
+                        <strong>Celular: </strong> 849166406
+                    </p>
+                    <p>
+                        <strong>Email:</strong> ninatamimotety@gmail.com
+                    </p>
+                    <div id="redes-sociais">
+                        <img src="./imagens/icons/facebook-logo-fill.svg" width="32px" alt="">
+                        <img src="./imagens/icons/instagram-logo-fill.svg" width="32px" alt="">
+                        <img src="./imagens/icons/youtube-logo-fill.svg" width="32px" alt="">
+                    </div>
+                </div>
+            </div>
+            <form>
+                <div>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" required>
+                </div>
+                <div>
+                    <label for="email">email</label><br>
+                    <input type="email" name="nome" required>
+                </div>
+                <div>
+                    <label for="Mensagem">Mensagem</label><br>
+                    <textarea name="Mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000);
+        }
+    </script>
+</body>
+
+</html>

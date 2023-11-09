@@ -1,0 +1,26 @@
+hr {
+    width: 150px;
+    background-color: #ff0a54;
+    border: 1px solid #ff0a54;
+    height: 4px;
+    margin: 8px 0 20px 0;
+    border-radius: 60px;
+}
+
+p {
+    text-align: justify;
+    padding-top: 20px;
+}
+body {
+    height: 100vh;
+}
+body > div {
+    height: 100%;
+}
+main {
+    background-color: white;
+    width: 80%;
+    margin: 150px auto;
+    border-radius: 20px;
+    padding: 20px;
+}

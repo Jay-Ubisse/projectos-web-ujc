@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economia Nacional</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/sobre.css">
+    <style>
+        #sobre {
+            color: #e01e37;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav>
+                <a href="index.html">Página inicial</a>
+                <a href="sobre.html" id="sobre">Sobre</a>
+                <a href="actualidade-economica.html">Actuaidade económica</a>
+                <a href="noticias.html">Notícias</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Sobre o site</h1>
+            <hr>
+            <p>
+                Este site é sobre a economia de Moçambique, que apresenta o conjunto de actividades desenvolvidas pelos
+                moçambicanos visando a produção, distribuição e o consumo de bens e serviços necessários à sobrevivência
+                e à qualidade de vida.
+            </p>
+            <p>
+                Em Moçambique, predomina a economia Capitalista é a organização das atividades econômicas por meio do
+                mercado, baseada na propriedade privada e na qual a grande maioria das transações é mediada pelo
+                dinheiro.
+            </p>
+        </main>
+    </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000);
+        }
+    </script>
+</body>
+
+</html>

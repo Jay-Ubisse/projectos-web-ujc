@@ -44,3 +44,4 @@ menuItem[4].addEventListener('click', function () {
     document.getElementById('turismo').style.display = 'none';
     document.getElementById('comercio').style.display = 'block';
 });
+
