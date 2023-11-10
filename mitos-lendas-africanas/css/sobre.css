@@ -1,0 +1,33 @@
+#sec-principal {
+    background-color: #372b2b;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+}
+
+#sobre {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+hr {
+    width: 50px;
+    margin: 12px auto;
+    background-color: white;
+    border: 1px solid white;
+    height: 12px;
+    border-radius: 60px;
+}
+main {
+    height: calc(100vh -300px);
+}
+#sec-sobre {
+    background-color: #372b2b;
+    padding: 10px;
+    color: white;
+    margin: 100px auto;
+    width: 50%;
+    border-radius: 10px;
+}
