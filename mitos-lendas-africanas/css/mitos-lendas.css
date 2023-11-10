@@ -1,0 +1,77 @@
+#sec-principal {
+    background-color: #372b2b;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+}
+
+#sec-mitos > div {
+    margin-top: 40px;
+}
+
+#sec-mitos > div > p {
+    border: 2px solid #372b2b;
+    padding: 20px 10px;
+    margin: 10px auto;
+    width: 80%;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sec-mitos p:hover {
+    cursor: pointer;
+    background-color: #fcefb4;
+}
+
+#link-mitos {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    background-color: #372b2b;
+    padding: 8px 32px 8px 16px;
+    border-radius: 20px;
+}
+
+#sec-mitos {
+    padding: 40px 0 0 20px;
+}
+
+#mitos {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+hr {
+    width: 50px;
+    margin: 12px auto;
+    background-color: white;
+    border: 1px solid white;
+    height: 12px;
+    border-radius: 60px;
+}
+
+.detalhes-mitos {
+    width: 80%;
+    margin: auto;
+    background-color: #fcefb4;
+    padding: 10px;
+    text-align: justify;
+    display: none;
+}
+
+.detalhes-mitos div {
+    margin: 10px 2px;
+}
+
+.detalhes-mitos h2 {
+    margin-bottom: 20px;
+}
+
+.detalhes-mitos img {
+    cursor: pointer;
+}

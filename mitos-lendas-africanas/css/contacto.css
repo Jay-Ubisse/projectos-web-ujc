@@ -1,0 +1,43 @@
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section {
+    background-color: #372b2b;
+    color: #fad643;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex;
+}
+
+input, textarea {
+    width: 400px;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px 4px;
+}
+
+#endereco {
+    text-align: center;
+}
+
+#contactos {
+    text-align: center;
+    border-bottom: 2px solid #fad643;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#contactos img {
+    margin-top: 10px;
+    filter: invert(71%) sepia(92%) saturate(333%) hue-rotate(0deg) brightness(104%) contrast(96%);
+}
