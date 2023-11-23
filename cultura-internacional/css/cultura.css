@@ -1,0 +1,44 @@
+main section {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.cultura-paises hr {
+    height: 4px;
+    border: none;
+    background-color: #023047;
+    margin: 4px 0 10px 0;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.cultura-paises {
+    margin: 20px 0;
+    border: 2px solid #023047;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.descricao {
+    height: 100px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.descricao p {
+    padding: 10px 0;
+}
+
+#botao {
+    color: #023047;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#botao:hover {
+    cursor: pointer;
+}
+
+.menos {
+    display: none;
+}

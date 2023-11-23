@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Nacional</title>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+    <style>
+        body {
+            background-image: url('./imagens/fundo.jpg');
+            background-size: cover;
+        }
+
+        #sec-contacto {
+            width: 80%;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column-reverse;
+            background-color: #55a630;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #endereco {
+            text-align: center;
+        }
+
+        #contactos {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        form {
+            width: 40%;
+            margin: 24px auto;
+        }
+
+        input {
+            height: 12px;
+            width: 100%;
+            padding: 12px 8px;
+            border: 2px solid #55a630;
+        }
+
+        textarea {
+            width: 100%;
+            border: 2px solid #55a630;
+        }
+
+        button {
+            background-color: #55a630;
+            color: white;
+            padding: 20px 40px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cultura Nacional</h1>
+        <nav>
+            <a href="./index.html">Página inicial</a>
+            <a href="./linguas.html">Idiomas</a>
+            <a href="./gastronomia.html">Gastronomia</a>
+            <a href="./dancas.html">Dança</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="sec-contacto">
+            <div>
+                <div id="endereco">
+                    <h1>Cultura Nacional</h1>
+                    <p>Malhazone, Maputo, Mocambique</p>
+                </div>
+                <div id="contactos">
+                    <p>
+                        <strong>Celular: </strong> +258 85 060 2440
+                    </p>
+                    <p>
+                        <strong>Email:</strong> julieta@gmail.com
+                    </p>
+                </div>
+            </div>
+            <form>
+                <div>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" required>
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="nome" required>
+                </div>
+                <div>
+                    <label for="Mensagem">Mensagem</label><br>
+                    <textarea name="Mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

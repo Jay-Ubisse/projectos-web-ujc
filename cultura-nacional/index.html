@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Nacional</title>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cultura Nacional</h1>
+        <nav>
+            <a href="./index.html">Página inicial</a>
+            <a href="./linguas.html">Idiomas</a>
+            <a href="./gastronomia.html">Gastronomia</a>
+            <a href="./danca.html">Dança</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="slideshow">
+            <div class="slideshow-container">
+                <div id="conteudo" class="mySlides fade">
+                    <h1>Idiomas</h1>
+                    <p>Conheca os idomas falados em Moçambique.</p>
+                    <span class="ler-mais ">
+                        <a href="./linguas.html">Ler mais</a>
+                    </span>
+                </div>
+                <div id="conteudo" class="mySlides fade">
+                    <h1>Gastronomia</h1>
+                    <p>Aprecie o melhor da culinária Moçambicana</p>
+                    <span class="ler-mais ">
+                        <a href="./gastronomia.html">Ler mais</a>
+                    </span>
+                </div>
+                <div id="conteudo" class="mySlides fade">
+                    <h1>Dança</h1>
+                    <p>Descubra as nossas dancas tradicionais</p>
+                    <span class="ler-mais ">
+                        <a href="./danca.html">Ler mais</a>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Internacional</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <style>
+        #sec-contacto {
+            width: 80%;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        #endereco {
+            margin-top: 100px;
+            text-align: center;
+        }
+        #contactos {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cultura Internacional</h1>
+        <nav>
+            <a href="./index.html">Página inicial</a>
+            <a href="./culturas.html">Culturas</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="sec-contacto">
+            <div>
+                <div id="endereco">
+                    <h1>Cultura Internacional</h1>
+                    <p>Rua Beijo da mulata, Somerchield-Maputo</p>
+                </div>
+                <div id="contactos">
+                    <p>
+                        <strong>Celular: </strong> +258 85 164 0460
+                    </p>
+                    <p>
+                        <strong>Email:</strong> leneisha@gmail.com
+                    </p>
+                    <div id="redes-sociais">
+                        <img src="./photos/facebook-logo-fill.svg" width="32px" alt="">
+                        <img src="./photos/instagram-logo-fill.svg" width="32px" alt="">
+                        <img src="./photos/youtube-logo-fill.svg" width="32px" alt="">
+                    </div>
+                </div>
+            </div>
+            <form>
+                <div>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" required>
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="nome" required>
+                </div>
+                <div>
+                    <label for="Mensagem">Mensagem</label><br>
+                    <textarea name="Mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <section id="newsletter">
+            <h2>Subscreva-se na nossa Newsletter</h2>
+            <form>
+                <input type="email" required placeholder="usuario@dominio.com"><br><br>
+                <button type="submit">Subscrever-me</button>
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2023. Todos os direitos reservados</p>
+        </footer>
+    </main>
+</body>
+
+</html>
